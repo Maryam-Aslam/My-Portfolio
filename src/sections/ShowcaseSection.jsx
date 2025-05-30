@@ -64,7 +64,7 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project"  ref={project2Ref}>
               <div>
-                <a href="https://sparkmarvels.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://facebook-clone-frontend-project.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img src="/images/project-sec.PNG" alt="Facebook Clone" /> </a>
 
               </div>
@@ -74,7 +74,7 @@ const ShowcaseSection = () => {
             <div className="project" ref={project3Ref}>
               <div>
               
-                <img src="/images/threeproject.PNG" alt="One Youth Project" />
+                <img src="/images/threeproject.PNG" alt="One Youth Project" href="https://youth-one-by-maryam.vercel.app/" rel="noopener noreferrer"  target="_blank" />
               </div>
               <h2>One Youth – Empowerment Platform</h2>
             </div>
