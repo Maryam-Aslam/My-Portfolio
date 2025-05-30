@@ -61,25 +61,34 @@ const ShowcaseSection = () => {
           </div>
 
           {/* RIGHT */}
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project"  ref={project2Ref}>
-              <div>
-                <a href="https://facebook-clone-frontend-project.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/project-sec.PNG" alt="Facebook Clone" /> </a>
+         <div className="project-list-wrapper overflow-hidden">
+  <div className="project" ref={project2Ref}>
+    <div>
+      <a
+        href="https://facebook-clone-frontend-project.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/images/project-sec.PNG" alt="Facebook Clone" />
+      </a>
+    </div>
+    <h2>Facebook Clone</h2>
+  </div>
 
-              </div>
-              <h2>Facebook Clone</h2>
-            </div>
+  <div className="project" ref={project3Ref}>
+    <div>
+      <a
+        href="https://youth-one-by-maryam.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/images/threeproject.PNG" alt="One Youth Project" />
+      </a>
+    </div>
+    <h2>One Youth – Empowerment Platform</h2>
+  </div>
+</div>
 
-            <div className="project" ref={project3Ref}>
-              <div>
-                <a href="https://youth-one-by-maryam.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/threeproject.PNG" alt="One Youth Project" /> </a>
-              
-              </div>
-              <h2>One Youth – Empowerment Platform</h2>
-            </div>
-          </div>
         </div>
       </div>
     </section>
