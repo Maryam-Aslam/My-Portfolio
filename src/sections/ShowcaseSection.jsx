@@ -73,8 +73,9 @@ const ShowcaseSection = () => {
 
             <div className="project" ref={project3Ref}>
               <div>
+                <a href="https://youth-one-by-maryam.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="/images/threeproject.PNG" alt="One Youth Project" /> </a>
               
-                <img src="/images/threeproject.PNG" alt="One Youth Project" href="https://youth-one-by-maryam.vercel.app/" rel="noopener noreferrer"  target="_blank" />
               </div>
               <h2>One Youth – Empowerment Platform</h2>
             </div>
