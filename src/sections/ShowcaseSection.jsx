@@ -6,51 +6,51 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 // Categories to mirror the reference section
-const CATEGORIES = ['All', 'AI', 'Web 3.0', 'MERN', 'Other'];
+const CATEGORIES = ['All', 'AI', 'Web 3.0', 'MERN', 'wordpress'];
 
 // Sample projects (thumbnails exist in /public/images)
 const PROJECTS = [
   {
-    id: 'ai-avatars',
-    title: 'AI Companion Avatars',
-    categories: ['AI'],
-    image: '/images/project1.png',
-    demoUrl: 'https://example.com/demo/ai-avatars',
+    id: 'techlynix-portfolio',
+    title: 'Techlynix - Company Portfolio',
+    categories: ['Frontend', 'Modern UI'],
+    image: '/images/tech-portfolio.PNG', // Ensure you save a screenshot of your first page here
+    demoUrl: 'https://techlynix-portfolio-9ueu.vercel.app/',
   },
   {
     id: 'ecommerce-store',
     title: 'Ecommerce Store',
     categories: ['MERN'],
-    image: '/images/project2.png',
-    demoUrl: 'https://example.com/demo/ecommerce',
+    image: '/images/ecom.PNG',
+    demoUrl: 'https://ecom-web-frontend-chi.vercel.app/',
   },
   {
-    id: 'ai-image-gen',
-    title: 'AI Image Generation App',
-    categories: ['AI', 'MERN'],
-    image: '/images/project3.png',
-    demoUrl: 'https://example.com/demo/ai-image-gen',
+    id: 'osum-logistics',
+    title: 'Osum Enterprises - Global Logistics',
+    categories: ['WordPress', 'PHP', 'Business'],
+    image: '/images/osum.PNG', // Remember to take a screenshot of the Osum home page
+    demoUrl: 'https://osumenterprises.com/',
   },
   {
-    id: 'yariga-dashboard',
-    title: 'Yariga Dashboard',
+    id: 'sk-ride-frontend',
+    title: 'SK-Ride - Ride Booking Platform',
     categories: ['MERN'],
-    image: '/images/project-sec.PNG',
+    image: '/images/ridee.PNG', // Ensure you save a screenshot of the SK-Ride landing page here
+    demoUrl: 'https://sk-ride-frontend.vercel.app/',
+  },
+  {
+    id: 'youth-one',
+    title: 'Youth One - Community Platform',
+    categories: ['Frontend', 'Modern UI'],
+    image: '/images/youth.PNG', // Take a screenshot of the Youth One landing page
+    demoUrl: 'https://youth-one.vercel.app/',
+  },
+  {
+    id: 'facebook-clone',
+    title: 'Facebook UI Clone',
+    categories: ['Frontend', 'React.js', 'Social UI'],
+    image: '/images/FBB.PNG', // Take a screenshot of the Facebook Clone home feed
     demoUrl: 'https://facebook-clone-frontend-project.vercel.app/',
-  },
-  {
-    id: 'crowd-funding',
-    title: 'Crowd Funding Web3.0',
-    categories: ['Web 3.0'],
-    image: '/images/threeproject.PNG',
-    demoUrl: 'https://example.com/demo/crowd-funding',
-  },
-  {
-    id: 'krypt-transfer',
-    title: 'Krypt - Transfer Crypto Funds',
-    categories: ['Web 3.0'],
-    image: '/images/project1.png',
-    demoUrl: 'https://example.com/demo/krypt',
   },
   {
     id: 'tech-blog',
@@ -59,41 +59,7 @@ const PROJECTS = [
     image: '/images/first-project.PNG',
     demoUrl: 'https://sparkmarvels.com',
   },
-  {
-    id: 'movie-site',
-    title: 'Ceniflix Movie Website',
-    categories: ['Other'],
-    image: '/images/project2.png',
-    demoUrl: 'https://example.com/demo/ceniflix',
-  },
-  {
-    id: 'home-selling',
-    title: 'Home Selling Website',
-    categories: ['Other'],
-    image: '/images/project3.png',
-    demoUrl: 'https://example.com/demo/home-selling',
-  },
-  {
-    id: 'nft-marketplace',
-    title: 'Crypto Ket - NFT Marketplace',
-    categories: ['Web 3.0'],
-    image: '/images/project-sec.PNG',
-    demoUrl: 'https://example.com/demo/nft-marketplace',
-  },
-  {
-    id: 'portfolio-3d',
-    title: '3D Portfolio',
-    categories: ['Other'],
-    image: '/images/threeproject.PNG',
-    demoUrl: 'https://example.com/demo/3d-portfolio',
-  },
-  {
-    id: 'shopi',
-    title: 'Shopi - Commerce',
-    categories: ['MERN'],
-    image: '/images/project1.png',
-    demoUrl: 'https://example.com/demo/shopi',
-  },
+
 ];
 
 const ShowcaseSection = () => {
